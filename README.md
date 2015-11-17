@@ -4,4 +4,7 @@ Unlike the `activator new` command from Typesafe's Activator, this uses the reco
 
 Steps to use it :
 
--
+- Clone this project
+- In `build.sbt`, change the name of the project and the various other settings
+- Change the name of the root package "changeme" by renaming the folder src/main/scala/changeme and the package declaration (`package changeme`) in Main.scala
+- You should be able to run the project `sbt run`, which should display "Hello world!".
